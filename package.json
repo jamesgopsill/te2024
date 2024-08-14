@@ -1,0 +1,29 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "web-app",
+	"type": "module",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "vite",
+		"preview": "vite preview",
+		"make": "vite build",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/plotly.js-dist-min": "^2.3.4",
+		"prettier": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "latest"
+	},
+	"dependencies": {
+		"@types/wicg-file-system-access": "latest",
+		"@vitejs/plugin-vue": "^5.0.4",
+		"bootstrap": "^5.3.3",
+		"plotly.js-dist-min": "^2.34.0",
+		"sass": "^1.71.1",
+		"vite": "^5.1.5",
+		"vue": "^3.4.21"
+	}
+}
